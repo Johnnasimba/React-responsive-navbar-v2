@@ -1,4 +1,4 @@
-export const MenuList = [
+const MenuList = [
     {
         title: "Home",
         url: "/"
@@ -20,3 +20,4 @@ export const MenuList = [
         url: "/demo"
     }
 ]
+export default MenuList;
