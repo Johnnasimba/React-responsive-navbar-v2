@@ -2,8 +2,8 @@ import React from 'react'
 
 const Pricing  = () => {
     return (
-        <div className="navbar">
-           Pricing
+        <div className="page-heading">
+           <h1>Pricing</h1>
         </div>
     )
 }
