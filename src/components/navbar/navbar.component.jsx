@@ -1,5 +1,6 @@
 import React from 'react'
 import MenuList from './menu-list';
+import { NavLink } from 'react-router-dom';
 
 import './navbar.styles.css';
 
@@ -7,7 +8,9 @@ const Navbar  = () => {
     const menuList = MenuList.map(({title, url}, index) => {
         return (
             <li key = {index}>
-                <a href={url}> {title} </a>
+                <NavLink to={url} exact activeClassName="active"> 
+                    {title} 
+                </NavLink>
             </li>
         )
     });

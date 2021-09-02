@@ -37,7 +37,8 @@
     margin-left: 20px;
     border-radius: 2px;
 }
-.menu-list li a:hover{
+.menu-list li a:hover,
+.menu-list li a.active{
     background-color: #fff;
     border-radius: 2px;
     color: #000;
