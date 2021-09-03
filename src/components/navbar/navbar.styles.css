@@ -16,6 +16,9 @@
 .logo font{
     color: #fff;
 }
+.menu-icon {
+    display: none;
+}
 .menu-list {
     list-style-type: none;
     display: flex;
@@ -43,4 +46,42 @@
     border-radius: 2px;
     color: #000;
     transition: all 0.5s ease-in-out;
+}
+@media screen and (max-width: 900px) {
+    .logo {
+        font-size:20px;
+
+    }
+    .menu-list li a {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .menu-icon {
+        display: block;
+    }
+    .menu-list {
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        right: 0;
+        top: 64px;
+    }
+    .menu-list li {
+        margin-bottom: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .menu-list li:last-child {
+        margin-bottom: 0px;
+    }
+    .menu-list li a,
+    .menu-list li:last-child a {
+        width: 100px;
+        display: block;
+        margin: auto;
+    }
 }

@@ -19,6 +19,9 @@ const Navbar  = () => {
             <div className="logo">
                 Fitness<font>Hub</font>
             </div>
+            <div className="menu-icon">
+                <i className="fa fa-bars"></i>
+            </div>
             <ul className="menu-list">
                 {menuList}
             </ul>
