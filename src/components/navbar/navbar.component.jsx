@@ -12,8 +12,8 @@ const Navbar  = () => {
     }
     const menuList = MenuList.map(({title, url}, index) => {
         return (
-            <li key = {index}>
-                <NavLink to={url} exact activeClassName="active"> 
+            <li key = {index} >
+                <NavLink to={url} exact activeClassName="active" onClick={handleClick}> 
                     {title} 
                 </NavLink>
             </li>

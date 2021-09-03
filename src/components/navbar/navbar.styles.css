@@ -68,7 +68,7 @@
         margin-left: 10px;
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .menu-icon {
         display: block;
     }
@@ -92,7 +92,7 @@
     }
     .menu-list li a,
     .menu-list li:last-child a {
-        width: 100px;
+        width: 200px;
         display: block;
         margin: auto;
     }
