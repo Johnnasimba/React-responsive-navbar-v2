@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/React-responsive-navbar-v2/static/css/main.9fc57be6.chunk.css",
+    "main.js": "/React-responsive-navbar-v2/static/js/main.7e13d871.chunk.js",
+    "main.js.map": "/React-responsive-navbar-v2/static/js/main.7e13d871.chunk.js.map",
+    "runtime-main.js": "/React-responsive-navbar-v2/static/js/runtime-main.b4552bd4.js",
+    "runtime-main.js.map": "/React-responsive-navbar-v2/static/js/runtime-main.b4552bd4.js.map",
+    "static/js/2.5dc8160d.chunk.js": "/React-responsive-navbar-v2/static/js/2.5dc8160d.chunk.js",
+    "static/js/2.5dc8160d.chunk.js.map": "/React-responsive-navbar-v2/static/js/2.5dc8160d.chunk.js.map",
+    "index.html": "/React-responsive-navbar-v2/index.html",
+    "static/css/main.9fc57be6.chunk.css.map": "/React-responsive-navbar-v2/static/css/main.9fc57be6.chunk.css.map",
+    "static/js/2.5dc8160d.chunk.js.LICENSE.txt": "/React-responsive-navbar-v2/static/js/2.5dc8160d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/React-responsive-navbar-v2/static/media/fitnessHub.80b7eb7e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b4552bd4.js",
+    "static/js/2.5dc8160d.chunk.js",
+    "static/css/main.9fc57be6.chunk.css",
+    "static/js/main.7e13d871.chunk.js"
+  ]
+}
